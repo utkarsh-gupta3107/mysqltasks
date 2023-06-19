@@ -8,10 +8,11 @@ app.use(cors());
 
 // connecting to db mysql
 const db= mysql.createConnection({
-    host:"localhost",
-    user:"root",
-    password:"",
-    database:"mysql"
+    host:"sql12.freesqldatabase.com",
+    user:"sql12627342",
+    password:"s8p1diMTpu",
+    database:"sql12627342",
+    port:3306
 })
 
 // creating an API
